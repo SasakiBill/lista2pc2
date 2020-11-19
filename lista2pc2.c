@@ -35,7 +35,8 @@ int main(){
     bom_dia();
     printf("%d", aleat());
     x = aleat();
-    dobro(x);
+    //a partir daqui não funciona :\, por isso deixei comentado por enquanto
+    /*dobro(x);
     if (dobro(x) > dobro(aleat())){
         mostra_dobro(x);
     }*/
