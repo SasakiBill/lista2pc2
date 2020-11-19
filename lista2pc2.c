@@ -22,8 +22,8 @@ int aleat(){
 
 int dobro(int dob){
     dob *= 2;
-    return printf("%d", dob);
-
+    return  dob;
+    
 }
 
 void mostra_dobro(int dobro){
@@ -35,10 +35,10 @@ int main(){
     bom_dia();
     printf("%d", aleat());
     x = aleat();
-    //a partir daqui não funciona :\, por isso deixei comentado por enquanto
-    /*dobro(x);
+    num += dobro(x);
+    dobro(x);
     if (dobro(x) > dobro(aleat())){
         mostra_dobro(x);
-    }*/
+    }
     return 0;
 }
